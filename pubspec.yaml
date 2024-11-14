@@ -1,0 +1,36 @@
+name: lab4_pam
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adăugăm icoanele pentru stilul iOS
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter recomandat pentru practici de codare
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Aici includem toate resursele de imagine pentru aplicație
+    - assets/foto3.jpeg
+    - assets/foto4.jpeg
+    - assets/foto5.jpeg
+    - assets/foto2.png
+    - assets/foto6.jpeg
+    - assets/foto7.jpeg
+    - assets/foto9.jpeg
+    - assets/photop.jpg
